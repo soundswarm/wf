@@ -18,13 +18,14 @@ html {
 
 }
 
-
 .icon {
+	width: 3%;
+	min-width: 20px;
+	margin: 2px;
+	float: right;
+}
+.icons {
 	position: absolute;
 	top: 3%;
 	right: 3%;
-
-	height: 4%;
-
-
 }
