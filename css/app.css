@@ -19,18 +19,18 @@ html {
 }
 
 .icon {
-	width: 3%;
+	width: 2%;
 	min-width: 30px;
 	margin: 5px;
 	float: right;
 }
-
-.icons {
-	position: absolute;
-	top: 2%;
+@media screen and (min-device-width: 667px) {
+  .icons {
+  	position: absolute;
+    top: 1%;
 	right: 2%;
+  }
 }
-
 @media screen and (max-device-width: 667px) {
   .icons {
   	position: absolute;
