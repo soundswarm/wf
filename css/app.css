@@ -24,8 +24,17 @@ html {
 	margin: 5px;
 	float: right;
 }
+
 .icons {
 	position: absolute;
 	top: 2%;
 	right: 2%;
+}
+
+@media screen and (max-device-width: 667px) {
+  .icons {
+  	position: absolute;
+    top: 1%;
+	right: 2%;
+  }
 }
