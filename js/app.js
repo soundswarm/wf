@@ -12,6 +12,7 @@ $(document).ready(function() {
          //set cookie
          $.cookie('warflagbeer.com','0',{expires: 30});
          //display content
+         
          $('#ID').hide();
          $('#content').fadeIn();
          $('#googleMap').fadeIn();
