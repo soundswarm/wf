@@ -5,7 +5,23 @@ $(document).ready(function() {
    } else {
       //check user age
       $('#content').hide();
-      $('#ID').fadeIn();
+      
+      //the ID form html is served through jquery so it doesn't get included in search engine crawlers which have JS turned off.
+      $('#ID').html('<header>\
+            <div class="container">\
+                <div class="intro-text">\
+                    <div class="intro-heading">WAR FLAG</div>\
+                    <div class="intro-lead-in">ALES & LAGERS</div>\
+                    <div class="idForm">\
+                        Are you at least 21 years old or of legal drinking age in your country of residence?\
+                        <div class="btn-group" role="group" aria-label="...">\
+                            <button type="button" class="btn btn-default yes">YES</button>\
+                            <button type="button" class="btn btn-default no">NO</button>\
+                        </div>\
+                    </div>\
+                </div>\
+            </div>\
+         </header>').show();
       
       //if user clicks yes, display content
       $('.yes').on('click', function() {
