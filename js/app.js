@@ -14,8 +14,8 @@ $(document).ready(function() {
          //display content
          
          $('#ID').hide();
-         $('#content').fadeIn();
-         $('#googleMap').fadeIn();
+         $('#content').show();
+         $('.google-maps').html('<iframe src="https://www.google.com/maps/d/embed?mid=z1AgUqVx4gRo.kt_HDdj9rA1w" width="640" height="480"></iframe>').css('display', 'block');
          
       });
 
