@@ -245,7 +245,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #928d7d;
 }
 
 @media(min-width:768px) {
@@ -317,8 +317,8 @@ header .intro-text .intro-lead-in {
 @media(min-width:768px) {
 
     header .intro-text {
-        padding-top: 90px;
-        padding-bottom: 515px;
+        padding-top: 100px;
+        padding-bottom: 505px;
         color: #464646;
     }
 
