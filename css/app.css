@@ -3,7 +3,9 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+.map-wrapper {
+  max-height: 480px;
+}
 .google-maps {
     position: relative;
     padding-bottom: 100%; // This is the aspect ratio
