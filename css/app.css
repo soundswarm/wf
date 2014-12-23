@@ -7,6 +7,13 @@
   max-height: 480px;
 }*/
 
+.beerlink {
+  display: inline-block;
+  padding: 10px;
+}
+.email {
+  padding-top: 10px;
+}
 .google-maps {
     position: relative;
     margin: auto;
