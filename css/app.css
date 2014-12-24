@@ -17,12 +17,14 @@
 .google-maps {
     position: relative;
     margin: auto;
-    max-height: 480px
-}
-.google-maps iframe {
-  position: relative;
-  margin-left: 12.5%;
+    max-height: 480px;
+    margin-left: 12.5%;
   width: 75%;
+}
+iframe {
+  position: relative;
+  width: 100%;
+  
 }
 .map-wrapper {
   max-height: 480px;
