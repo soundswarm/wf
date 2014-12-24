@@ -17,7 +17,8 @@
 .google-maps {
   position: relative;
   height: 0;
-  width: 100%;
+  width: 75%;
+  margin-left: 12.5%;
   padding-bottom: 100%;
   overflow: hidden;
 }
@@ -30,6 +31,7 @@
 }
 .map-wrapper {
   max-height: 480px;
+
 }
 
 
