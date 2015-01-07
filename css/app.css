@@ -116,17 +116,6 @@
   
 }
 
-section#about {
-   background-image: url(../img/cityGlass.jpg);
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: none;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   background-size: cover;
-   -o-background-size: cover;
-}
-
 /*section#freedom {
   background-image: url(../img/billOfRightsGood.jpg);
   background-position-x: 50%;
@@ -141,7 +130,7 @@ section#about {
 }*/
 section#freedom {
    background-image: url(../img/billOfRightsGood.jpg);
-   background-attachment: fixed;
+   background-attachment: scroll;
    background-position: center center;
    background-repeat: none;
    -webkit-background-size: cover;
