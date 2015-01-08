@@ -142,3 +142,7 @@ section#freedom {
 .BORInstituteLink {
  width: 115px;
 }
+.story h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
