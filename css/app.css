@@ -14,9 +14,7 @@
   display: inline-block;
   padding: 10px;
 }
-.email {
-  padding-top: 10px;
-}
+
 .google-maps iframe {
   position: absolute;
   width: 100%;
@@ -146,3 +144,18 @@ section#freedom {
      -o-background-size: 100% 100%;
     }
   }
+
+  .telDesktop {
+  display: none;
+  
+}
+@media(min-width: 768px) {
+  .telMobile {
+    display: none;
+  }
+  .telDesktop {
+    display: block;
+    padding-top: 10px;
+  }
+
+}
