@@ -6,6 +6,9 @@
 /*.map-wrapper {
   max-height: 480px;
 }*/
+h2.section-heading {
+  font-family: "CharlemagneStd-Bold","Helvetica Neue",Helvetica,Arial,cursive;
+}
 .beer {
   margin: auto;
   float:none;
