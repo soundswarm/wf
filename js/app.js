@@ -2,6 +2,7 @@ $(document).ready(function() {
    //check if age ID cookie exists
    if($.cookie('warflagbeer.com')) {
       $('#ID').hide();
+      $('.carousel').carousel()
    } else {
       //check user age
       $('#content').hide();
@@ -31,6 +32,7 @@ $(document).ready(function() {
          
          $('#ID').hide();
          $('#content').show();
+         $('.carousel').carousel()
          $('.google-maps').html('<iframe src="https://www.google.com/maps/d/embed?mid=z1AgUqVx4gRo.kt_HDdj9rA1w" width="640" height="480"></iframe>').css('display', 'block');
          
       });
