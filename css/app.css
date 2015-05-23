@@ -108,7 +108,7 @@ h2.section-heading {
 @media screen and (min-device-width: 767px) {
  
   .carousel-inner{
-    max-height: 500px !important;
+    max-height: 800px !important;
   }
   .img-carousel {
     margin: auto;
