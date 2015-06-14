@@ -3,31 +3,160 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
-body {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	background: none;
+/*.map-wrapper {
+  max-height: 480px;
+}*/
+h2.section-heading {
+  font-family: "CharlemagneStd-Bold","Helvetica Neue",Helvetica,Arial,cursive;
+}
+.beer {
+  margin: auto;
+  float:none;
+}
+.beerlink {
+  display: inline-block;
+  padding: 10px;
 }
 
-.full {
-  background: url("canyonblack.png") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.google-maps iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  max-height: 480px;
 }
-.container-fluid {
-	text-align: center;
-	vertical-align: middle;
+.google-maps {
+  position: relative;
+  height: 0;
+  width: 75%;
+  margin-left: 12.5%;
+  padding-bottom: 75%;
+  overflow: hidden;
+  max-height: 480px;
 }
-.intro {
-	padding-top: 10px;
-	padding-bottom: 200px
+
+.map-wrapper {
+
+  max-height: 480px;
+
 }
-.icon {
-	position: absolute;
-	bottom: 15%;
-	left: 50%;
-	height: 30px;
+
+
+.beerwrapper {
+  max-height: 500px;
+  margin: auto;
+}
+
+.carousel-wrapper {
+  max-width: 600px;
+  margin: auto;
+}
+.carousel-inner{
+  max-height: 250px !important;
+}
+.img-carousel {
+  margin: auto;
+  max-height: 250px;
+}
+.idForm {
+  padding: 30px;
+  color: white;
+  width: 200px;
+  font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(0,0,0,.7);
+}
+
+.story {
+  width: 100%;
+  color: white;
+  background-color:rgba(0,0,0,0.7);
+  margin: auto;
+  padding-top: 10px;
+}
+
+
+.section-heading {
+  font-style: normal;
+}
+
+
+
+.carousel-control {
+  color: #545454;
+}
+/*make carousel left and right margins white*/
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image:      -o-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+  background-image:         linear-gradient(to right, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+.carousel-control.right {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(255, 255, 255, .5) 100%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(255, 255, 255, .5) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .0001)), to(rgba(0, 0, 0, .5)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(255, 255, 255, .5) 100%);
+
+}
+
+@media screen and (min-device-width: 767px) {
+ 
+  .carousel-inner{
+    max-height: 800px !important;
+  }
+  .img-carousel {
+    margin: auto;
+    max-height: 450px;
+  }
+}
+
+.BORInstituteLink {
+ width: 115px;
+}
+.story h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+section#freedom {
+   background-image: url(../img/billOfRightsSmall.jpg);
+   background-attachment: scroll;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 130% 100%;
+  -webkit-background-size: 130% 100%;
+   -moz-background-size: 130% 100%;
+   -o-background-size: 130% 100%;
+  }
+@media(min-width: 768px) {
+   section#freedom {
+   background-image: url(../img/billOfRightsLarge.jpg);
+   background-attachment: scroll;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+  }
+}
+
+  .telDesktop {
+  display: none;
+  
+}
+@media(min-width: 768px) {
+  .telMobile {
+    display: none;
+  }
+  .telDesktop {
+    display: block;
+    padding-top: 10px;
+  }
+
 }
