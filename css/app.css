@@ -53,11 +53,12 @@ h2.section-heading {
   margin: auto;
 }
 .carousel-inner{
-  max-height: 250px !important;
+  /*changed this to fix mobile bottle being cut off*/
+  max-height: 700px !important;
 }
 .img-carousel {
   margin: auto;
-  max-height: 250px;
+  max-height: 700px;
 }
 .idForm {
   padding: 30px;
