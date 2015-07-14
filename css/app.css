@@ -53,11 +53,12 @@ h2.section-heading {
   margin: auto;
 }
 .carousel-inner{
-  max-height: 250px !important;
+  /*changed this to fix mobile bottle being cut off*/
+  max-height: 700px !important;
 }
 .img-carousel {
   margin: auto;
-  max-height: 250px;
+  max-height: 700px;
 }
 .idForm {
   padding: 30px;
@@ -72,8 +73,6 @@ h2.section-heading {
 
 .story {
   width: 100%;
-  color: white;
-  background-color:rgba(0,0,0,0.7);
   margin: auto;
   padding-top: 10px;
 }
@@ -83,7 +82,9 @@ h2.section-heading {
   font-style: normal;
 }
 
-
+.wwphoto {
+  margin-top: 30px;
+}
 
 .carousel-control {
   color: #545454;
@@ -116,15 +117,11 @@ h2.section-heading {
   }
 }
 
-.BORInstituteLink {
- width: 115px;
-}
 .story h4 {
   margin-top: 15px;
   margin-bottom: 5px;
 }
 section#freedom {
-   background-image: url(../img/billOfRightsSmall.jpg);
    background-attachment: scroll;
    background-position: center center;
    background-repeat: no-repeat;
@@ -135,7 +132,6 @@ section#freedom {
   }
 @media(min-width: 768px) {
    section#freedom {
-   background-image: url(../img/billOfRightsLarge.jpg);
    background-attachment: scroll;
    background-position: center center;
    background-repeat: no-repeat;
