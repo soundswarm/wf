@@ -82,7 +82,9 @@ h2.section-heading {
   font-style: normal;
 }
 
-
+.wwphoto {
+  margin-top: 30px;
+}
 
 .carousel-control {
   color: #545454;
