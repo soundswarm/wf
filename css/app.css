@@ -54,7 +54,7 @@ h2.section-heading {
 }
 .carousel-inner{
   /*changed this to fix mobile bottle being cut off*/
-  max-height: 700px !important;
+  max-height: 1200px !important;
 }
 .img-carousel {
   margin: auto;
