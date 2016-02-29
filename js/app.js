@@ -11,7 +11,7 @@ $(document).ready(function() {
             <div class="container">\
                 <div class="intro-text">\
                     <div class="intro-heading">WAR FLAG</div>\
-                    <div class="intro-lead-in">ALES & LAGERS</div>\
+                    <div class="intro-lead-in">BREWING COMPANY</div>\
                     <div class="idForm">\
                         Are you at least 21 years old or of legal drinking age in your country of residence?\
                         <div class="btn-group" role="group" aria-label="...">\
