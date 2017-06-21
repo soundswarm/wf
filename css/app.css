@@ -9,6 +9,11 @@
 h2.section-heading {
   font-family: "CharlemagneStd-Bold","Helvetica Neue",Helvetica,Arial,cursive;
 }
+
+.aboutUs {
+  margin-bottom: 50px;
+}
+
 .beer {
   margin: auto;
   float:none;
@@ -107,7 +112,7 @@ h2.section-heading {
 }
 
 @media screen and (min-device-width: 767px) {
- 
+
   .carousel-inner{
     max-height: 1000px !important;
   }
@@ -120,6 +125,9 @@ h2.section-heading {
 .story h4 {
   margin-top: 15px;
   margin-bottom: 5px;
+}
+#services {
+  padding-bottom: 0;
 }
 section#freedom {
    background-attachment: scroll;
@@ -144,7 +152,7 @@ section#freedom {
 
   .telDesktop {
   display: none;
-  
+
 }
 @media(min-width: 768px) {
   .telMobile {
