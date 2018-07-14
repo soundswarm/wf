@@ -31,16 +31,23 @@ h2.section-heading {
   left:0;
   max-height: 480px;
 }
-.google-maps {
+
+.google-mapss {
   position: relative;
   height: 0;
-  width: 75%;
+  width: 100%;
   margin-left: 12.5%;
   padding-bottom: 75%;
   overflow: hidden;
   max-height: 480px;
 }
-
+@media screen and (max-width: 768px) {
+  .google-mapss {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 .map-wrapper {
 
   max-height: 480px;
@@ -112,7 +119,6 @@ h2.section-heading {
 }
 
 @media screen and (min-device-width: 767px) {
-
   .carousel-inner{
     max-height: 1000px !important;
   }
