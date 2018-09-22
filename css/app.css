@@ -33,6 +33,7 @@ h2.section-heading {
 }
 
 .google-mapss {
+  margin:auto;
   position: relative;
   height: 0;
   width: 100%;
