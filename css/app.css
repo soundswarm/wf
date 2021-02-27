@@ -49,11 +49,13 @@ h2.section-heading {
   }
 }
 .map-wrapper {
-
   max-height: 480px;
-
 }
-
+@media screen and (min-width: 1200px) {
+  .map-wrapper {
+    max-height: 700px;
+  }
+}
 
 .beerwrapper {
   max-height: 450px;
