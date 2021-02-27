@@ -891,3 +891,7 @@ body {
     width: 100px;
     height: 100px;
 }
+.shop-bottom-text {
+    font-size: 18px;
+    margin-top: 40px;
+}
