@@ -883,3 +883,15 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #928d7d;
 }
+
+.shop-cell {
+    padding: 20px 0 10px;
+}
+.shop-cell img {
+    width: 100px;
+    height: 100px;
+}
+.shop-bottom-text {
+    font-size: 18px;
+    margin-top: 40px;
+}
